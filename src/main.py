@@ -1,5 +1,5 @@
 from arppoisoning import send_poison_arp
-from mitm_forwarder import start_mitm
+from src.spoofer import run_spoof
 import threading
 import argparse
 import time

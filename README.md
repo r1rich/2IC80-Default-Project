@@ -21,8 +21,11 @@ Positional Arguments:
   <macTarget>       MAC address of the spoofed device (e.g., gateway MAC) \
   <iface>           Network interface to use (e.g., eth0, wlan0) \ 
 
-Optional Flags:
-  --mode reply|request      Type of ARP packet to send (default: reply) \ 
-  --bi-directional          Enable two-way spoofing (spoof victim and gateway) \ 
-  --mitm                    Enable packet forwarding (MITM) \ 
-  --verbose                 Enable detailed output (debug/info) \ 
+Optional Flags: \
+  --mode reply|request      Type of ARP packet to send (default: reply)  
+
+  --bi-directional          Enable two-way spoofing (spoof victim and gateway)  
+
+  --mitm                    Enable packet forwarding (MITM)     
+
+  --verbose                 Enable detailed output (debug/info)    
